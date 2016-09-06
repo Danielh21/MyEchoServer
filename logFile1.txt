@@ -1,0 +1,16 @@
+sep. 03, 2016 7:53:43 AM server.EchoServer runServer
+INFO: Server started. Listening on: 7777, bound to: localhost
+sep. 03, 2016 7:53:43 AM server.EchoServer runServer
+SEVERE: null
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.bind(ServerSocket.java:329)
+	at server.EchoServer.runServer(EchoServer.java:35)
+	at server.EchoServer.main(EchoServer.java:58)
+	at test.ClientServerIntergrationTest$1.run(ClientServerIntergrationTest.java:34)
+	at java.lang.Thread.run(Thread.java:745)
+

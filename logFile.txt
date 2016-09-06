@@ -1,0 +1,16 @@
+sep. 05, 2016 12:47:56 PM server.EchoServer runServer
+INFO: Server started. Listening on: 7777, bound to: localhost
+sep. 05, 2016 12:49:27 PM server.EchoServer runServer
+INFO: Connected to a client
+sep. 05, 2016 12:49:27 PM server.EchoServer runServer
+INFO: Connected to a client
+sep. 05, 2016 12:49:32 PM server.ClientHandler run
+INFO: Received the message: GEWGW 
+sep. 05, 2016 12:49:32 PM server.ClientHandler run
+INFO: Received the message: GEWGW 
+sep. 05, 2016 12:49:36 PM server.ClientHandler run
+INFO: Received the message: GWE 
+sep. 05, 2016 12:49:38 PM server.ClientHandler run
+INFO: Received the message: KTDY 
+sep. 05, 2016 12:49:38 PM server.ClientHandler run
+INFO: Received the message: KTDY 
